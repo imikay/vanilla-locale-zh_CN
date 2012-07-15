@@ -4,11 +4,11 @@
 $LocaleInfo['Chinese'] = array (
   'Locale' => 'zh-CN',
   'Name' => 'Chinese Simple(简体中文)',
-  'Description' => 'Chinese Simple(简体中文) ,modify by kanbox`s chinese locals file',
-  'Version' => '20120526',
-  'Author' => 'sarowlwp,Kanbox(first version)',
-  'AuthorEmail' => 'sarowlwp@live.cn',
-  'AuthorUrl' => 'http://weibo.com/sarowlwp',
+  'Description' => 'Chinese Simple(简体中文) , improved by Mikay Gao, based on kanbox`s chinese locals file',
+  'Version' => '20120715',
+  'Author' => 'Mikay Gao, sarowlwp, Kanbox(first version)',
+  'AuthorEmail' => 'imikay@gmail.com',
+  'AuthorUrl' => 'http://imikay.com',
   'License' => 'GPL2',
 );
 
@@ -37,13 +37,13 @@ $Definition['Name Unavailable'] = '名字无效';
 $Definition['Username can only contain letters, numbers, and underscores.'] = '用户名只能包含文字，数字和下划线。';
 $Definition['The name you entered is already in use by another member.'] = '名字已存在。';
 $Definition['The email you entered in use by another member.'] = '电子邮件地址已存在。'; //doppelt - siehe unten
-$Definition['The reCAPTCHA value was not entered correctly. Please try again.'] = 'reCAPTCHA 值输入错误，请重新输入。';
+$Definition['The reCAPTCHA value was not entered correctly. Please try again.'] = '验证码输入错误，请重新输入。';
 
 $Definition['Passwords don\'t match'] = '密码输入不一致';
-$Definition['You must agree to the terms of service.'] = '必须同意服务条款';
+$Definition['You must agree to the terms of service.'] = '你必须必须同意服务条款';
 $Definition['Sign Up →'] = '登录 →';
 
-$Definition['Powered by %s'] = '技术支持%s';
+$Definition['Powered by %s'] = 'Powered by %s';
 
 
 ////////////////////////////////////
@@ -66,7 +66,7 @@ $Definition['%3$s approved %2$s membership application.'] = '%3$s批准%2$s的�
 $Definition['%3$s created an account for %1$s.'] = '%3$s为%1$s创建一个帐户';
 $Definition['%1$s updated %6$s profile.'] = '%1$s更新%6$s的个人资料';
 $Definition['%1$s wrote on %4$s %5$s.'] = '%1$s记录道%4$s %5$s';
-$Definition['%1$s changed %6$s profile picture.'] = '%1$s更改%6$s资料头像';
+$Definition['%1$s changed %6$s profile picture.'] = '%1$s更改了%6$s的头像';
 $Definition['%1$s changed %4$s permissions.'] = '%1$s更改%3$s的权限';
 $Definition['%1$s commented on %4$s %8$s.'] = '%1$s对%3$s的%8$s添加评论';
 $Definition['%1$s was added to the %2$s %3$s.'] = '%1$s被加入%2$s %3$s组';
@@ -87,13 +87,13 @@ $Definition['Comment'] = '评论';
 $Definition['Write a comment'] = '写评论';
 $Definition['%1$s started a %8$s.'] = '%1$s发表%8$s';
 $Definition['%1$s mentioned %3$s in a %8$s.'] = '%1$s在%8$s中提到%3$s';
-$Definition['%1$s commented on your %8$s.'] = '%1$s对您的%8$s添加评论';
+$Definition['%1$s commented on your %8$s.'] = '%1$s评论了您的%8$s';
 $Definition['%1$s sent you a %8$s.'] = '%1$s向您发送%8$s';
 $Definition['message'] = '消息';
 $Definition['discussion'] = '帖子';
 $Definition['bookmarked discussion'] = '标记的帖子';
 $Definition['comment'] = '评论';
-$Definition['Not much happening here, yet.'] = '没有多少活动。';
+$Definition['Not much happening here, yet.'] = '最近还没有活动';
 $Definition['Welcome Aboard!'] = '欢迎加入!';
 
 ////////////////////////////////////
@@ -183,7 +183,7 @@ $Definition['Sign Out'] = '退出';
 $Definition['Hang on a sec while we sign you out.'] = '稍等，正在退出。';
 $Definition['Category'] = '版块';
 $Definition['Category:'] = '版块:';
-$Definition['Categories'] = '版块列表>>';
+$Definition['Categories'] = '版块列表';
 
 $Definition['My Drafts'] = '我的草稿';
 $Definition['My Bookmarks'] = '我的关注';
@@ -203,7 +203,7 @@ $Definition['Notifications'] = '通知';
 $Definition['Welcome to Vanilla!'] = '欢迎来到Vanilla!';
 $Definition['Change My Picture'] = '更换头像';
 $Definition['Change Picture'] = '更换图片';
-$Definition['Select an image on your computer (2mb max)'] = '在计算机中选择图片 (最大2MB)';
+$Definition['Select an image on your computer (2mb max)'] = '在你的电脑中选择一张图片 (最大2MB)';
 $Definition['By uploading a file you certify that you have the right to distribute this picture and that it does not violate the Terms of Service.'] = '上传文件时请确定您有权发布该图片, 并且不违反服务条款。';
 $Definition['Edit My Thumbnail'] = '编辑缩略图';
 $Definition['Drag around and resize the square below to define your thumbnail icon.'] = '在图像框下拖拽并调整图像大小来定义缩略图图标';
@@ -251,7 +251,7 @@ $Definition['An invitation has already been sent to the email you entered.'] = '
 $Definition['The email you have entered is already related to an existing account.'] = '您输入的邮件地址已经绑定了一个帐号'; //doppelt - siehe oben
 $Definition['You do not have enough invitations left.'] = '您没有足够的邀请';
 
-$Definition['My Preferences'] = '通知设置';
+$Definition['My Preferences'] = '我的设置';
 $Definition['Email Notifications'] = '电子邮件通知';
 $Definition['Notify me when people write on my wall.'] = '当有人在我的主页留言时通知我';
 $Definition['Notify me when people reply to my wall comments.'] = '当有人回复我的帖子时通知我';
@@ -273,14 +273,14 @@ $Definition['Joined'] = '加入';
 $Definition['Visits'] = '访问';
 $Definition['Last Active'] = '上次在线';
 $Definition['Roles'] = '身份';
-$Definition['Write something about yourself...'] = '个人简介...';
+$Definition['Write something about yourself...'] = '介绍一下你自己...';
 
 $Definition['Password'] = '密码';
-$Definition['Remember me on this computer'] = '本机记住登录状态';
+$Definition['Remember me on this computer'] = '在本机记住我的登录状态';
 $Definition['or'] = '或';
-$Definition['Clear'] = '删除';
+$Definition['Clear'] = '清除';
 $Definition['Share'] = '发布';
-$Definition['Enter your email address or username'] = '请输入您的邮箱或用户名来帮助我们确认您的身份';
+$Definition['Enter your email address or username'] = '请输入您的邮箱或用户名';
 
 $Definition['Reset my password'] = '重置我的密码';
 $Definition['Could not instantiate mail function.'] = '邮件服务异常，请联系管理员';
@@ -327,126 +327,8 @@ $Definition['RoleID'] = '身份编号';
 
 $Definition['A message has been sent to your email address with password reset instructions.'] = '重置密码信息已经发送到您的邮箱，请您注意查收！';
 $Definition['[%s] Confirm Your Email Address'] = '[%s] 请确认你的邮箱地址'; 
-$Definition['EmailConfirmEmail'] = '你好！
 
-'.$SiteName.'请您确认您在'.$SiteName.'的帐户邮箱，只有确认的账户才能成为'.$SiteName.'的正式成员，账户邮箱将作为您重置密码，收取提醒消息等一系列的功能的前提，请确认邮箱的正确性。
 
-请点击下面的链接进行确认: {/entry/emailconfirm,url,domain}/{User.UserID,rawurlencode}/{EmailKey,rawurlencode}';
-
-$Definition['EmailInvitation'] = '你好!
-
-    这是来自'.$SiteName.'的邀请信
-
-	您的好友 %1$s 邀请你加入 %2$s. 欢迎点击下面链接的成为'.$SiteName.'的一员:
-	
-
-	  %3$s
-
-        
-		'.$SiteName.'社区是针对青海大学学子的BBS社区，我们致力于给您带来一个方便快捷的交流平台，如果您在使用中有什么疑问，或者建议，欢迎到 【我要提建议】 区发帖，'.$SiteName.'感谢您的支持。
-         
-        我们的口号是：让师弟认识学姐，让师兄认识学妹
-        我们的目标是：让青海大学人，有一个自己的网上家园
-        
-        感谢您的支持！
-
-	  '.$SiteName.'祝您开心每一天!';
-$Definition['EmailMembershipApproved'] = '你好： %1$s,
-
-    这是来自'.$SiteName.'的通知信
-
-	恭喜您，你的申请已被管理员通过，欢迎加入'.$SiteName.'. 点击下面的链接进行登录:
-
-	  %2$s
-	    
-	  '.$SiteName.'祝你开心每一天!';
-$Definition['EmailNotification'] = '%1$s
-
-	这是来自'.$SiteName.'的密码重置通知
-
-	Follow the link below to check it out:
-	%2$s
-
-	'.$SiteName.'祝你开心每一天!';
-$Definition['EmailPassword'] = '你好 %1$s,
-
-	这是来自'.$SiteName.'的密码重置通知
-
-	%2$s 的密码已经被您重置 %3$s. 请使用系统随机的密码登录并修改您的密码:       
-
-	  Email: %6$s
-	  Password: %5$s
-	  Url: %4$s
-
-	      '.$SiteName.'祝你开心每一天!';
-$Definition['EmailStoryNotification'] = '%1$s
-
-	%3$s
-
-	---
-	请点击下面的链接查看消息:
-	%2$s
-
-	如果此邮件对您造成了影响，请您登陆社区，进入个人主页，通知设置中取消邮件通知的勾选。
-	
-	      例如 用户名为guest
-	      登陆社区->点击工具条guest->通知设置->取消相应选项的勾选
-	
-	'.$SiteName.'祝你开心每一天!';
-$Definition['EmailWelcome'] = '你好 %1$s,
-
-    这是来自'.$SiteName.'的欢迎信
-    
-	%2$s 已经为您创建了'.$SiteName.'的账户 %3$s. 请使用以下信息登录:
-
-	  Email: %6$s
-	  Password: %5$s
-	  Url: %4$s
-
-'.$SiteName.'社区是针对青海大学学子的BBS社区，我们致力于给您带来一个方便快捷的交流平台，如果您在使用中有什么疑问，或者建议，欢迎到我要提建议区发帖，'.$SiteName.'感谢您的支持。
-         
-        我们的口号是：让师弟认识学姐，让师兄认识学妹
-        我们的目标是：让青海大学人，有一个自己的网上家园
-        
-        感谢您的支持！
-
-	      '.$SiteName.'祝你开心每一天!';
-$Definition['EmailWelcomeConnect'] = '你好 {User.Name},
-
-	You have successfully connected to {Title}. Here is your information:
-
-	  Username: {User.Name}
-  Connected With: {ProviderName}
-
-You can access the site at {/,url,domain}.
-
-'.$SiteName.'祝你开心每一天!';
-$Definition['EmailWelcomeRegister'] = '您好 {User.Name},
-
-	恭喜您，成功注册了{Title} 账号. 以下是您的注册信息:
-
-	  用户名: {User.Name}
-          邮件: {User.Email}
-
-        '.$SiteName.'社区是针对青海大学学子的BBS社区，我们致力于给您带来一个方便快捷的交流平台，如果您在使用中有什么疑问，或者建议，欢迎到我要提建议区发帖，'.$SiteName.'感谢您的支持。
-         
-        我们的口号是：让师弟认识学姐，让师兄认识学妹
-        我们的目标是：让青海大学人，有一个自己的网上家园
-        
-        感谢您的支持！
-
-        访问地址 {/,url,domain}.
-
-';
-
-$Definition['PasswordRequest'] = '你好，我们收到对您 %2$s 帐户的密码重置申请 . 如果您需要重置密码，请点击下面的链接进行:
-
-%3$s
-
-如果这不是您本人的重置申请，请忽略这封Email.';
-
-$Definition['EmailHeader'] = '你好 {User.Name}!
-';
 $Definition['EmailFooter'] = '祝你开心每一天!';
 
 $Definition['Use the content at this url as your homepage.'] = '默认首页，当用户访问 <strong>%s</strong>时，默认展现的页面，vanilla默认使用 "All Discussions" 页作为默认首页，你可以根据你的喜好来设置你的默认首页。';
@@ -494,9 +376,9 @@ $Definition['Applications'] = '应用';
 $Definition['Plugins'] = '插件';
 $Definition['Forum Settings'] = '论坛设置';
 $Definition['Flood Control'] = '流量控制';
-$Definition['Moderation'] = '审计';
+$Definition['Moderation'] = '审核';
 $Definition['Themes'] = '模板';
-$Definition['Locales'] = '国际化';
+$Definition['Locales'] = '本地化';
 $Definition['Statistics'] = '统计';
 $Definition['Roles & Permissions'] = '身份&权限';
 $Definition['Registration'] = '注册';
